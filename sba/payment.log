@@ -1,0 +1,459 @@
+2020-03-23 16:49:31.626  INFO 30335 --- [main] com.jedlab.admin.SbaApplication          : No active profile set, falling back to default profiles: default
+2020-03-23 16:49:31.639  INFO 30335 --- [main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@54504ecd: startup date [Mon Mar 23 16:49:31 MYT 2020]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@6ae5aa72
+2020-03-23 16:49:32.385  INFO 30335 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=ae2e03e4-9b2b-39fa-b8ff-94d2198b5eac
+2020-03-23 16:49:32.405  INFO 30335 --- [main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2020-03-23 16:49:32.501  INFO 30335 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$ee18b1c5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-23 16:49:32.713  INFO 30335 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8282 (http)
+2020-03-23 16:49:32.730  INFO 30335 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-23 16:49:32.731  INFO 30335 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.31
+2020-03-23 16:49:32.735  INFO 30335 --- [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+2020-03-23 16:49:32.821  INFO 30335 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-03-23 16:49:32.821  INFO 30335 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1182 ms
+2020-03-23 16:49:33.005  WARN 30335 --- [localhost-startStop-1] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-03-23 16:49:33.006  INFO 30335 --- [localhost-startStop-1] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-03-23 16:49:33.014  INFO 30335 --- [localhost-startStop-1] c.netflix.config.DynamicPropertyFactory  : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@2fa8118f
+2020-03-23 16:49:33.655  INFO 30335 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2020-03-23 16:49:33.658  INFO 30335 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-03-23 16:49:33.659  INFO 30335 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-03-23 16:49:33.659  INFO 30335 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-03-23 16:49:33.659  INFO 30335 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2020-03-23 16:49:33.659  INFO 30335 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpTraceFilter' to: [/*]
+2020-03-23 16:49:33.659  INFO 30335 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'webMvcMetricsFilter' to: [/*]
+2020-03-23 16:49:33.703  WARN 30335 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-03-23 16:49:33.704  INFO 30335 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-03-23 16:49:33.856  INFO 30335 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-03-23 16:49:33.964  INFO 30335 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService  'webMvcAsyncTaskExecutor'
+2020-03-23 16:49:33.978  INFO 30335 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@54504ecd: startup date [Mon Mar 23 16:49:31 MYT 2020]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@6ae5aa72
+2020-03-23 16:49:34.036  INFO 30335 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-03-23 16:49:34.037  INFO 30335 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-03-23 16:49:34.071  INFO 30335 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-03-23 16:49:34.072  INFO 30335 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-03-23 16:49:34.151  WARN 30335 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-03-23 16:49:34.567  INFO 30335 --- [main] .b.a.s.w.s.AdminControllerHandlerMapping : Mapped "{[/instances/{instanceId}/actuator/**],methods=[GET || HEAD || POST || PUT || PATCH || DELETE || OPTIONS]}" onto public reactor.core.publisher.Mono<java.lang.Void> de.codecentric.boot.admin.server.web.servlet.InstancesProxyController.endpointProxy(java.lang.String,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.io.IOException
+2020-03-23 16:49:34.575  INFO 30335 --- [main] .b.a.s.w.s.AdminControllerHandlerMapping : Mapped "{[/instances/events],methods=[GET],produces=[application/json]}" onto public reactor.core.publisher.Flux<de.codecentric.boot.admin.server.domain.events.InstanceEvent> de.codecentric.boot.admin.server.web.InstancesController.events()
+2020-03-23 16:49:34.576  INFO 30335 --- [main] .b.a.s.w.s.AdminControllerHandlerMapping : Mapped "{[/instances/{id}],methods=[DELETE]}" onto public reactor.core.publisher.Mono<org.springframework.http.ResponseEntity<java.lang.Void>> de.codecentric.boot.admin.server.web.InstancesController.unregister(java.lang.String)
+2020-03-23 16:49:34.576  INFO 30335 --- [main] .b.a.s.w.s.AdminControllerHandlerMapping : Mapped "{[/instances/{id}],methods=[GET],produces=[application/json]}" onto public reactor.core.publisher.Mono<org.springframework.http.ResponseEntity<de.codecentric.boot.admin.server.domain.entities.Instance>> de.codecentric.boot.admin.server.web.InstancesController.instance(java.lang.String)
+2020-03-23 16:49:34.576  INFO 30335 --- [main] .b.a.s.w.s.AdminControllerHandlerMapping : Mapped "{[/instances],methods=[GET],produces=[application/json]}" onto public reactor.core.publisher.Flux<de.codecentric.boot.admin.server.domain.entities.Instance> de.codecentric.boot.admin.server.web.InstancesController.instances(java.lang.String)
+2020-03-23 16:49:34.577  INFO 30335 --- [main] .b.a.s.w.s.AdminControllerHandlerMapping : Mapped "{[/instances/events],methods=[GET],produces=[text/event-stream]}" onto public reactor.core.publisher.Flux<org.springframework.http.codec.ServerSentEvent<de.codecentric.boot.admin.server.domain.events.InstanceEvent>> de.codecentric.boot.admin.server.web.InstancesController.eventStream()
+2020-03-23 16:49:34.577  INFO 30335 --- [main] .b.a.s.w.s.AdminControllerHandlerMapping : Mapped "{[/instances/{id}],methods=[GET],produces=[text/event-stream]}" onto public reactor.core.publisher.Flux<org.springframework.http.codec.ServerSentEvent<de.codecentric.boot.admin.server.domain.entities.Instance>> de.codecentric.boot.admin.server.web.InstancesController.instanceStream(java.lang.String)
+2020-03-23 16:49:34.578  INFO 30335 --- [main] .b.a.s.w.s.AdminControllerHandlerMapping : Mapped "{[/instances],methods=[POST],consumes=[application/json]}" onto public reactor.core.publisher.Mono<org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, de.codecentric.boot.admin.server.domain.values.InstanceId>>> de.codecentric.boot.admin.server.web.InstancesController.register(de.codecentric.boot.admin.server.domain.values.Registration,org.springframework.web.util.UriComponentsBuilder)
+2020-03-23 16:49:34.580  INFO 30335 --- [main] .b.a.s.w.s.AdminControllerHandlerMapping : Mapped "{[/applications/{name}],methods=[DELETE]}" onto public reactor.core.publisher.Mono<org.springframework.http.ResponseEntity<java.lang.Void>> de.codecentric.boot.admin.server.web.ApplicationsController.unregister(java.lang.String)
+2020-03-23 16:49:34.580  INFO 30335 --- [main] .b.a.s.w.s.AdminControllerHandlerMapping : Mapped "{[/applications/{name}],methods=[GET],produces=[application/json]}" onto public reactor.core.publisher.Mono<org.springframework.http.ResponseEntity<de.codecentric.boot.admin.server.web.ApplicationsController$Application>> de.codecentric.boot.admin.server.web.ApplicationsController.application(java.lang.String)
+2020-03-23 16:49:34.581  INFO 30335 --- [main] .b.a.s.w.s.AdminControllerHandlerMapping : Mapped "{[/applications],methods=[GET],produces=[application/json]}" onto public reactor.core.publisher.Flux<de.codecentric.boot.admin.server.web.ApplicationsController$Application> de.codecentric.boot.admin.server.web.ApplicationsController.applications()
+2020-03-23 16:49:34.581  INFO 30335 --- [main] .b.a.s.w.s.AdminControllerHandlerMapping : Mapped "{[/applications],methods=[GET],produces=[text/event-stream]}" onto public reactor.core.publisher.Flux<org.springframework.http.codec.ServerSentEvent<de.codecentric.boot.admin.server.web.ApplicationsController$Application>> de.codecentric.boot.admin.server.web.ApplicationsController.applicationsStream()
+2020-03-23 16:49:34.584  INFO 30335 --- [main] .b.a.s.w.s.AdminControllerHandlerMapping : Mapped "{[/login],methods=[GET],produces=[text/html]}" onto public java.lang.String de.codecentric.boot.admin.server.ui.web.UiController.login()
+2020-03-23 16:49:34.584  INFO 30335 --- [main] .b.a.s.w.s.AdminControllerHandlerMapping : Mapped "{[/],methods=[GET],produces=[text/html]}" onto public java.lang.String de.codecentric.boot.admin.server.ui.web.UiController.index()
+2020-03-23 16:49:35.039  INFO 30335 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 19 endpoint(s) beneath base path '/actuator'
+2020-03-23 16:49:35.050  INFO 30335 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/archaius],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2020-03-23 16:49:35.051  INFO 30335 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/auditevents],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2020-03-23 16:49:35.051  INFO 30335 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/beans],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2020-03-23 16:49:35.052  INFO 30335 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/health],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2020-03-23 16:49:35.052  INFO 30335 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/conditions],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2020-03-23 16:49:35.052  INFO 30335 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/configprops],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2020-03-23 16:49:35.052  INFO 30335 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/env/{toMatch}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2020-03-23 16:49:35.053  INFO 30335 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/env],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2020-03-23 16:49:35.053  INFO 30335 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/env],methods=[POST],consumes=[application/vnd.spring-boot.actuator.v2+json || application/json],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2020-03-23 16:49:35.053  INFO 30335 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/env],methods=[DELETE],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2020-03-23 16:49:35.054  INFO 30335 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/info],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2020-03-23 16:49:35.054  INFO 30335 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/logfile],methods=[GET],produces=[application/octet-stream]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2020-03-23 16:49:35.054  INFO 30335 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/loggers],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2020-03-23 16:49:35.054  INFO 30335 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/loggers/{name}],methods=[POST],consumes=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2020-03-23 16:49:35.055  INFO 30335 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/loggers/{name}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2020-03-23 16:49:35.055  INFO 30335 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/heapdump],methods=[GET],produces=[application/octet-stream]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2020-03-23 16:49:35.055  INFO 30335 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/threaddump],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2020-03-23 16:49:35.055  INFO 30335 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/metrics/{requiredMetricName}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2020-03-23 16:49:35.056  INFO 30335 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/metrics],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2020-03-23 16:49:35.056  INFO 30335 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/scheduledtasks],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2020-03-23 16:49:35.056  INFO 30335 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/httptrace],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2020-03-23 16:49:35.056  INFO 30335 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/mappings],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2020-03-23 16:49:35.057  INFO 30335 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/refresh],methods=[POST],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2020-03-23 16:49:35.057  INFO 30335 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/features],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2020-03-23 16:49:35.057  INFO 30335 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/service-registry],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2020-03-23 16:49:35.057  INFO 30335 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/service-registry],methods=[POST],consumes=[application/vnd.spring-boot.actuator.v2+json || application/json],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2020-03-23 16:49:35.058  INFO 30335 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto protected java.util.Map<java.lang.String, java.util.Map<java.lang.String, org.springframework.boot.actuate.endpoint.web.Link>> org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping.links(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-03-23 16:49:35.121  INFO 30335 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2020-03-23 16:49:35.144  INFO 30335 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'refreshScope' has been autodetected for JMX exposure
+2020-03-23 16:49:35.146  INFO 30335 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'environmentManager' has been autodetected for JMX exposure
+2020-03-23 16:49:35.149  INFO 30335 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+2020-03-23 16:49:35.152  INFO 30335 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+2020-03-23 16:49:35.160  INFO 30335 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+2020-03-23 16:49:35.172  INFO 30335 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=54504ecd,type=ConfigurationPropertiesRebinder]
+2020-03-23 16:49:35.184  INFO 30335 --- [main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 0
+2020-03-23 16:49:35.191  INFO 30335 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2020-03-23 16:49:35.222  INFO 30335 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2020-03-23 16:49:35.283  INFO 30335 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2020-03-23 16:49:35.283  INFO 30335 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2020-03-23 16:49:35.376  INFO 30335 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2020-03-23 16:49:35.376  INFO 30335 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2020-03-23 16:49:35.531  INFO 30335 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-03-23 16:49:35.545  INFO 30335 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2020-03-23 16:49:35.545  INFO 30335 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2020-03-23 16:49:35.545  INFO 30335 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2020-03-23 16:49:35.545  INFO 30335 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2020-03-23 16:49:35.545  INFO 30335 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2020-03-23 16:49:35.545  INFO 30335 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2020-03-23 16:49:35.545  INFO 30335 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2020-03-23 16:49:35.669  INFO 30335 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2020-03-23 16:49:35.672  INFO 30335 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2020-03-23 16:49:35.674  INFO 30335 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-03-23 16:49:35.678  INFO 30335 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1584953375677 with initial instances count: 2
+2020-03-23 16:49:35.681  INFO 30335 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application sbaservice with eureka with status UP
+2020-03-23 16:49:35.682  INFO 30335 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1584953375682, current=UP, previous=STARTING]
+2020-03-23 16:49:35.684  INFO 30335 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SBASERVICE/192.168.0.139:sbaservice:8282: registering service...
+2020-03-23 16:49:35.722  INFO 30335 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SBASERVICE/192.168.0.139:sbaservice:8282 - registration status: 204
+2020-03-23 16:49:35.860  INFO 30335 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8282 (http) with context path ''
+2020-03-23 16:49:35.861  INFO 30335 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8282
+2020-03-23 16:49:35.864  INFO 30335 --- [main] com.jedlab.admin.SbaApplication          : Started SbaApplication in 4.996 seconds (JVM running for 5.475)
+2020-03-23 16:49:39.728  INFO 30335 --- [http-nio-8282-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-03-23 16:49:39.728  INFO 30335 --- [http-nio-8282-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2020-03-23 16:49:39.744  INFO 30335 --- [http-nio-8282-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 16 ms
+2020-03-23 16:49:59.904 ERROR 30335 --- [http-nio-8282-exec-4] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] threw exception
+
+java.io.IOException: Broken pipe
+	at sun.nio.ch.FileDispatcherImpl.write0(Native Method) ~[na:1.8.0_77]
+	at sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:47) ~[na:1.8.0_77]
+	at sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:93) ~[na:1.8.0_77]
+	at sun.nio.ch.IOUtil.write(IOUtil.java:65) ~[na:1.8.0_77]
+	at sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:471) ~[na:1.8.0_77]
+	at org.apache.tomcat.util.net.NioChannel.write(NioChannel.java:134) ~[tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.tomcat.util.net.NioBlockingSelector.write(NioBlockingSelector.java:101) ~[tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.tomcat.util.net.NioSelectorPool.write(NioSelectorPool.java:157) ~[tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.doWrite(NioEndpoint.java:1276) ~[tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.tomcat.util.net.SocketWrapperBase.doWrite(SocketWrapperBase.java:670) ~[tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.tomcat.util.net.SocketWrapperBase.flushBlocking(SocketWrapperBase.java:607) ~[tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.tomcat.util.net.SocketWrapperBase.flush(SocketWrapperBase.java:597) ~[tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.coyote.http11.Http11OutputBuffer$SocketOutputBuffer.flush(Http11OutputBuffer.java:646) ~[tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.coyote.http11.filters.ChunkedOutputFilter.flush(ChunkedOutputFilter.java:169) ~[tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.coyote.http11.Http11OutputBuffer.flush(Http11OutputBuffer.java:252) ~[tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.coyote.http11.Http11Processor.flush(Http11Processor.java:1564) ~[tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.coyote.AbstractProcessor.action(AbstractProcessor.java:352) ~[tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.coyote.Response.action(Response.java:173) ~[tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.catalina.connector.OutputBuffer.doFlush(OutputBuffer.java:317) ~[tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.catalina.connector.OutputBuffer.flush(OutputBuffer.java:284) ~[tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.catalina.connector.CoyoteOutputStream.flush(CoyoteOutputStream.java:118) ~[tomcat-embed-core-8.5.31.jar:8.5.31]
+	at sun.nio.cs.StreamEncoder.implFlush(StreamEncoder.java:297) ~[na:1.8.0_77]
+	at sun.nio.cs.StreamEncoder.flush(StreamEncoder.java:141) ~[na:1.8.0_77]
+	at java.io.OutputStreamWriter.flush(OutputStreamWriter.java:229) ~[na:1.8.0_77]
+	at org.springframework.util.StreamUtils.copy(StreamUtils.java:121) ~[spring-core-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.http.converter.StringHttpMessageConverter.writeInternal(StringHttpMessageConverter.java:103) ~[spring-web-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.http.converter.StringHttpMessageConverter.writeInternal(StringHttpMessageConverter.java:43) ~[spring-web-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.http.converter.AbstractHttpMessageConverter.write(AbstractHttpMessageConverter.java:224) ~[spring-web-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitterReturnValueHandler$HttpMessageConvertingHandler.sendInternal(ResponseBodyEmitterReturnValueHandler.java:199) ~[spring-webmvc-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitterReturnValueHandler$HttpMessageConvertingHandler.send(ResponseBodyEmitterReturnValueHandler.java:189) ~[spring-webmvc-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitter.sendInternal(ResponseBodyEmitter.java:189) ~[spring-webmvc-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitter.send(ResponseBodyEmitter.java:183) ~[spring-webmvc-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.SseEmitter.send(SseEmitter.java:133) ~[spring-webmvc-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ReactiveTypeHandler$SseEmitterSubscriber.send(ReactiveTypeHandler.java:341) ~[spring-webmvc-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ReactiveTypeHandler$AbstractEmitterSubscriber.run(ReactiveTypeHandler.java:283) ~[spring-webmvc-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_77]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_77]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_77]
+
+2020-03-23 16:49:59.906 ERROR 30335 --- [http-nio-8282-exec-4] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+
+java.io.IOException: Broken pipe
+	at sun.nio.ch.FileDispatcherImpl.write0(Native Method) ~[na:1.8.0_77]
+	at sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:47) ~[na:1.8.0_77]
+	at sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:93) ~[na:1.8.0_77]
+	at sun.nio.ch.IOUtil.write(IOUtil.java:65) ~[na:1.8.0_77]
+	at sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:471) ~[na:1.8.0_77]
+	at org.apache.tomcat.util.net.NioChannel.write(NioChannel.java:134) ~[tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.tomcat.util.net.NioBlockingSelector.write(NioBlockingSelector.java:101) ~[tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.tomcat.util.net.NioSelectorPool.write(NioSelectorPool.java:157) ~[tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.doWrite(NioEndpoint.java:1276) ~[tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.tomcat.util.net.SocketWrapperBase.doWrite(SocketWrapperBase.java:670) ~[tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.tomcat.util.net.SocketWrapperBase.flushBlocking(SocketWrapperBase.java:607) ~[tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.tomcat.util.net.SocketWrapperBase.flush(SocketWrapperBase.java:597) ~[tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.coyote.http11.Http11OutputBuffer$SocketOutputBuffer.flush(Http11OutputBuffer.java:646) ~[tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.coyote.http11.filters.ChunkedOutputFilter.flush(ChunkedOutputFilter.java:169) ~[tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.coyote.http11.Http11OutputBuffer.flush(Http11OutputBuffer.java:252) ~[tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.coyote.http11.Http11Processor.flush(Http11Processor.java:1564) ~[tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.coyote.AbstractProcessor.action(AbstractProcessor.java:352) ~[tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.coyote.Response.action(Response.java:173) ~[tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.catalina.connector.OutputBuffer.doFlush(OutputBuffer.java:317) ~[tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.catalina.connector.OutputBuffer.flush(OutputBuffer.java:284) ~[tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.catalina.connector.CoyoteOutputStream.flush(CoyoteOutputStream.java:118) ~[tomcat-embed-core-8.5.31.jar:8.5.31]
+	at sun.nio.cs.StreamEncoder.implFlush(StreamEncoder.java:297) ~[na:1.8.0_77]
+	at sun.nio.cs.StreamEncoder.flush(StreamEncoder.java:141) ~[na:1.8.0_77]
+	at java.io.OutputStreamWriter.flush(OutputStreamWriter.java:229) ~[na:1.8.0_77]
+	at org.springframework.util.StreamUtils.copy(StreamUtils.java:121) ~[spring-core-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.http.converter.StringHttpMessageConverter.writeInternal(StringHttpMessageConverter.java:103) ~[spring-web-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.http.converter.StringHttpMessageConverter.writeInternal(StringHttpMessageConverter.java:43) ~[spring-web-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.http.converter.AbstractHttpMessageConverter.write(AbstractHttpMessageConverter.java:224) ~[spring-web-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitterReturnValueHandler$HttpMessageConvertingHandler.sendInternal(ResponseBodyEmitterReturnValueHandler.java:199) ~[spring-webmvc-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitterReturnValueHandler$HttpMessageConvertingHandler.send(ResponseBodyEmitterReturnValueHandler.java:189) ~[spring-webmvc-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitter.sendInternal(ResponseBodyEmitter.java:189) ~[spring-webmvc-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitter.send(ResponseBodyEmitter.java:183) ~[spring-webmvc-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.SseEmitter.send(SseEmitter.java:133) ~[spring-webmvc-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ReactiveTypeHandler$SseEmitterSubscriber.send(ReactiveTypeHandler.java:341) ~[spring-webmvc-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ReactiveTypeHandler$AbstractEmitterSubscriber.run(ReactiveTypeHandler.java:283) ~[spring-webmvc-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_77]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_77]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_77]
+
+2020-03-23 16:50:04.500 ERROR 30335 --- [http-nio-8282-exec-2] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] threw exception
+
+java.io.IOException: Broken pipe
+	at sun.nio.ch.FileDispatcherImpl.write0(Native Method) ~[na:1.8.0_77]
+	at sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:47) ~[na:1.8.0_77]
+	at sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:93) ~[na:1.8.0_77]
+	at sun.nio.ch.IOUtil.write(IOUtil.java:65) ~[na:1.8.0_77]
+	at sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:471) ~[na:1.8.0_77]
+	at org.apache.tomcat.util.net.NioChannel.write(NioChannel.java:134) ~[tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.tomcat.util.net.NioBlockingSelector.write(NioBlockingSelector.java:101) ~[tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.tomcat.util.net.NioSelectorPool.write(NioSelectorPool.java:157) ~[tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.doWrite(NioEndpoint.java:1276) ~[tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.tomcat.util.net.SocketWrapperBase.doWrite(SocketWrapperBase.java:670) ~[tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.tomcat.util.net.SocketWrapperBase.flushBlocking(SocketWrapperBase.java:607) ~[tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.tomcat.util.net.SocketWrapperBase.flush(SocketWrapperBase.java:597) ~[tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.coyote.http11.Http11OutputBuffer$SocketOutputBuffer.flush(Http11OutputBuffer.java:646) ~[tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.coyote.http11.filters.ChunkedOutputFilter.flush(ChunkedOutputFilter.java:169) ~[tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.coyote.http11.Http11OutputBuffer.flush(Http11OutputBuffer.java:252) ~[tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.coyote.http11.Http11Processor.flush(Http11Processor.java:1564) ~[tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.coyote.AbstractProcessor.action(AbstractProcessor.java:352) ~[tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.coyote.Response.action(Response.java:173) ~[tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.catalina.connector.OutputBuffer.doFlush(OutputBuffer.java:317) ~[tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.catalina.connector.OutputBuffer.flush(OutputBuffer.java:284) ~[tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.catalina.connector.CoyoteOutputStream.flush(CoyoteOutputStream.java:118) ~[tomcat-embed-core-8.5.31.jar:8.5.31]
+	at sun.nio.cs.StreamEncoder.implFlush(StreamEncoder.java:297) ~[na:1.8.0_77]
+	at sun.nio.cs.StreamEncoder.flush(StreamEncoder.java:141) ~[na:1.8.0_77]
+	at java.io.OutputStreamWriter.flush(OutputStreamWriter.java:229) ~[na:1.8.0_77]
+	at org.springframework.util.StreamUtils.copy(StreamUtils.java:121) ~[spring-core-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.http.converter.StringHttpMessageConverter.writeInternal(StringHttpMessageConverter.java:103) ~[spring-web-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.http.converter.StringHttpMessageConverter.writeInternal(StringHttpMessageConverter.java:43) ~[spring-web-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.http.converter.AbstractHttpMessageConverter.write(AbstractHttpMessageConverter.java:224) ~[spring-web-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitterReturnValueHandler$HttpMessageConvertingHandler.sendInternal(ResponseBodyEmitterReturnValueHandler.java:199) ~[spring-webmvc-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitterReturnValueHandler$HttpMessageConvertingHandler.send(ResponseBodyEmitterReturnValueHandler.java:189) ~[spring-webmvc-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitter.sendInternal(ResponseBodyEmitter.java:189) ~[spring-webmvc-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitter.send(ResponseBodyEmitter.java:183) ~[spring-webmvc-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.SseEmitter.send(SseEmitter.java:133) ~[spring-webmvc-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ReactiveTypeHandler$SseEmitterSubscriber.send(ReactiveTypeHandler.java:341) ~[spring-webmvc-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ReactiveTypeHandler$AbstractEmitterSubscriber.run(ReactiveTypeHandler.java:283) ~[spring-webmvc-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_77]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_77]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_77]
+
+2020-03-23 16:50:04.502 ERROR 30335 --- [http-nio-8282-exec-2] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+
+java.io.IOException: Broken pipe
+	at sun.nio.ch.FileDispatcherImpl.write0(Native Method) ~[na:1.8.0_77]
+	at sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:47) ~[na:1.8.0_77]
+	at sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:93) ~[na:1.8.0_77]
+	at sun.nio.ch.IOUtil.write(IOUtil.java:65) ~[na:1.8.0_77]
+	at sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:471) ~[na:1.8.0_77]
+	at org.apache.tomcat.util.net.NioChannel.write(NioChannel.java:134) ~[tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.tomcat.util.net.NioBlockingSelector.write(NioBlockingSelector.java:101) ~[tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.tomcat.util.net.NioSelectorPool.write(NioSelectorPool.java:157) ~[tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.doWrite(NioEndpoint.java:1276) ~[tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.tomcat.util.net.SocketWrapperBase.doWrite(SocketWrapperBase.java:670) ~[tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.tomcat.util.net.SocketWrapperBase.flushBlocking(SocketWrapperBase.java:607) ~[tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.tomcat.util.net.SocketWrapperBase.flush(SocketWrapperBase.java:597) ~[tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.coyote.http11.Http11OutputBuffer$SocketOutputBuffer.flush(Http11OutputBuffer.java:646) ~[tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.coyote.http11.filters.ChunkedOutputFilter.flush(ChunkedOutputFilter.java:169) ~[tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.coyote.http11.Http11OutputBuffer.flush(Http11OutputBuffer.java:252) ~[tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.coyote.http11.Http11Processor.flush(Http11Processor.java:1564) ~[tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.coyote.AbstractProcessor.action(AbstractProcessor.java:352) ~[tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.coyote.Response.action(Response.java:173) ~[tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.catalina.connector.OutputBuffer.doFlush(OutputBuffer.java:317) ~[tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.catalina.connector.OutputBuffer.flush(OutputBuffer.java:284) ~[tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.catalina.connector.CoyoteOutputStream.flush(CoyoteOutputStream.java:118) ~[tomcat-embed-core-8.5.31.jar:8.5.31]
+	at sun.nio.cs.StreamEncoder.implFlush(StreamEncoder.java:297) ~[na:1.8.0_77]
+	at sun.nio.cs.StreamEncoder.flush(StreamEncoder.java:141) ~[na:1.8.0_77]
+	at java.io.OutputStreamWriter.flush(OutputStreamWriter.java:229) ~[na:1.8.0_77]
+	at org.springframework.util.StreamUtils.copy(StreamUtils.java:121) ~[spring-core-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.http.converter.StringHttpMessageConverter.writeInternal(StringHttpMessageConverter.java:103) ~[spring-web-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.http.converter.StringHttpMessageConverter.writeInternal(StringHttpMessageConverter.java:43) ~[spring-web-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.http.converter.AbstractHttpMessageConverter.write(AbstractHttpMessageConverter.java:224) ~[spring-web-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitterReturnValueHandler$HttpMessageConvertingHandler.sendInternal(ResponseBodyEmitterReturnValueHandler.java:199) ~[spring-webmvc-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitterReturnValueHandler$HttpMessageConvertingHandler.send(ResponseBodyEmitterReturnValueHandler.java:189) ~[spring-webmvc-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitter.sendInternal(ResponseBodyEmitter.java:189) ~[spring-webmvc-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitter.send(ResponseBodyEmitter.java:183) ~[spring-webmvc-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.SseEmitter.send(SseEmitter.java:133) ~[spring-webmvc-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ReactiveTypeHandler$SseEmitterSubscriber.send(ReactiveTypeHandler.java:341) ~[spring-webmvc-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ReactiveTypeHandler$AbstractEmitterSubscriber.run(ReactiveTypeHandler.java:283) ~[spring-webmvc-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_77]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_77]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_77]
+
+2020-03-23 16:50:04.758 ERROR 30335 --- [http-nio-8282-exec-10] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] threw exception
+
+java.io.IOException: Broken pipe
+	at sun.nio.ch.FileDispatcherImpl.write0(Native Method) ~[na:1.8.0_77]
+	at sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:47) ~[na:1.8.0_77]
+	at sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:93) ~[na:1.8.0_77]
+	at sun.nio.ch.IOUtil.write(IOUtil.java:65) ~[na:1.8.0_77]
+	at sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:471) ~[na:1.8.0_77]
+	at org.apache.tomcat.util.net.NioChannel.write(NioChannel.java:134) ~[tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.tomcat.util.net.NioBlockingSelector.write(NioBlockingSelector.java:101) ~[tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.tomcat.util.net.NioSelectorPool.write(NioSelectorPool.java:157) ~[tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.doWrite(NioEndpoint.java:1276) ~[tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.tomcat.util.net.SocketWrapperBase.doWrite(SocketWrapperBase.java:670) ~[tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.tomcat.util.net.SocketWrapperBase.flushBlocking(SocketWrapperBase.java:607) ~[tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.tomcat.util.net.SocketWrapperBase.flush(SocketWrapperBase.java:597) ~[tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.coyote.http11.Http11OutputBuffer$SocketOutputBuffer.flush(Http11OutputBuffer.java:646) ~[tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.coyote.http11.filters.ChunkedOutputFilter.flush(ChunkedOutputFilter.java:169) ~[tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.coyote.http11.Http11OutputBuffer.flush(Http11OutputBuffer.java:252) ~[tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.coyote.http11.Http11Processor.flush(Http11Processor.java:1564) ~[tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.coyote.AbstractProcessor.action(AbstractProcessor.java:352) ~[tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.coyote.Response.action(Response.java:173) ~[tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.catalina.connector.OutputBuffer.doFlush(OutputBuffer.java:317) ~[tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.catalina.connector.OutputBuffer.flush(OutputBuffer.java:284) ~[tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.catalina.connector.CoyoteOutputStream.flush(CoyoteOutputStream.java:118) ~[tomcat-embed-core-8.5.31.jar:8.5.31]
+	at sun.nio.cs.StreamEncoder.implFlush(StreamEncoder.java:297) ~[na:1.8.0_77]
+	at sun.nio.cs.StreamEncoder.flush(StreamEncoder.java:141) ~[na:1.8.0_77]
+	at java.io.OutputStreamWriter.flush(OutputStreamWriter.java:229) ~[na:1.8.0_77]
+	at org.springframework.util.StreamUtils.copy(StreamUtils.java:121) ~[spring-core-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.http.converter.StringHttpMessageConverter.writeInternal(StringHttpMessageConverter.java:103) ~[spring-web-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.http.converter.StringHttpMessageConverter.writeInternal(StringHttpMessageConverter.java:43) ~[spring-web-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.http.converter.AbstractHttpMessageConverter.write(AbstractHttpMessageConverter.java:224) ~[spring-web-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitterReturnValueHandler$HttpMessageConvertingHandler.sendInternal(ResponseBodyEmitterReturnValueHandler.java:199) ~[spring-webmvc-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitterReturnValueHandler$HttpMessageConvertingHandler.send(ResponseBodyEmitterReturnValueHandler.java:189) ~[spring-webmvc-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitter.sendInternal(ResponseBodyEmitter.java:189) ~[spring-webmvc-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitter.send(ResponseBodyEmitter.java:183) ~[spring-webmvc-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.SseEmitter.send(SseEmitter.java:133) ~[spring-webmvc-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ReactiveTypeHandler$SseEmitterSubscriber.send(ReactiveTypeHandler.java:341) ~[spring-webmvc-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ReactiveTypeHandler$AbstractEmitterSubscriber.run(ReactiveTypeHandler.java:283) ~[spring-webmvc-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_77]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_77]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_77]
+
+2020-03-23 16:50:04.759 ERROR 30335 --- [http-nio-8282-exec-10] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+
+java.io.IOException: Broken pipe
+	at sun.nio.ch.FileDispatcherImpl.write0(Native Method) ~[na:1.8.0_77]
+	at sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:47) ~[na:1.8.0_77]
+	at sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:93) ~[na:1.8.0_77]
+	at sun.nio.ch.IOUtil.write(IOUtil.java:65) ~[na:1.8.0_77]
+	at sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:471) ~[na:1.8.0_77]
+	at org.apache.tomcat.util.net.NioChannel.write(NioChannel.java:134) ~[tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.tomcat.util.net.NioBlockingSelector.write(NioBlockingSelector.java:101) ~[tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.tomcat.util.net.NioSelectorPool.write(NioSelectorPool.java:157) ~[tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.doWrite(NioEndpoint.java:1276) ~[tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.tomcat.util.net.SocketWrapperBase.doWrite(SocketWrapperBase.java:670) ~[tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.tomcat.util.net.SocketWrapperBase.flushBlocking(SocketWrapperBase.java:607) ~[tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.tomcat.util.net.SocketWrapperBase.flush(SocketWrapperBase.java:597) ~[tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.coyote.http11.Http11OutputBuffer$SocketOutputBuffer.flush(Http11OutputBuffer.java:646) ~[tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.coyote.http11.filters.ChunkedOutputFilter.flush(ChunkedOutputFilter.java:169) ~[tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.coyote.http11.Http11OutputBuffer.flush(Http11OutputBuffer.java:252) ~[tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.coyote.http11.Http11Processor.flush(Http11Processor.java:1564) ~[tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.coyote.AbstractProcessor.action(AbstractProcessor.java:352) ~[tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.coyote.Response.action(Response.java:173) ~[tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.catalina.connector.OutputBuffer.doFlush(OutputBuffer.java:317) ~[tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.catalina.connector.OutputBuffer.flush(OutputBuffer.java:284) ~[tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.catalina.connector.CoyoteOutputStream.flush(CoyoteOutputStream.java:118) ~[tomcat-embed-core-8.5.31.jar:8.5.31]
+	at sun.nio.cs.StreamEncoder.implFlush(StreamEncoder.java:297) ~[na:1.8.0_77]
+	at sun.nio.cs.StreamEncoder.flush(StreamEncoder.java:141) ~[na:1.8.0_77]
+	at java.io.OutputStreamWriter.flush(OutputStreamWriter.java:229) ~[na:1.8.0_77]
+	at org.springframework.util.StreamUtils.copy(StreamUtils.java:121) ~[spring-core-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.http.converter.StringHttpMessageConverter.writeInternal(StringHttpMessageConverter.java:103) ~[spring-web-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.http.converter.StringHttpMessageConverter.writeInternal(StringHttpMessageConverter.java:43) ~[spring-web-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.http.converter.AbstractHttpMessageConverter.write(AbstractHttpMessageConverter.java:224) ~[spring-web-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitterReturnValueHandler$HttpMessageConvertingHandler.sendInternal(ResponseBodyEmitterReturnValueHandler.java:199) ~[spring-webmvc-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitterReturnValueHandler$HttpMessageConvertingHandler.send(ResponseBodyEmitterReturnValueHandler.java:189) ~[spring-webmvc-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitter.sendInternal(ResponseBodyEmitter.java:189) ~[spring-webmvc-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitter.send(ResponseBodyEmitter.java:183) ~[spring-webmvc-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.SseEmitter.send(SseEmitter.java:133) ~[spring-webmvc-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ReactiveTypeHandler$SseEmitterSubscriber.send(ReactiveTypeHandler.java:341) ~[spring-webmvc-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ReactiveTypeHandler$AbstractEmitterSubscriber.run(ReactiveTypeHandler.java:283) ~[spring-webmvc-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_77]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_77]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_77]
+
+2020-03-23 16:50:05.239 ERROR 30335 --- [http-nio-8282-exec-9] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] threw exception
+
+java.io.IOException: Broken pipe
+	at sun.nio.ch.FileDispatcherImpl.write0(Native Method) ~[na:1.8.0_77]
+	at sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:47) ~[na:1.8.0_77]
+	at sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:93) ~[na:1.8.0_77]
+	at sun.nio.ch.IOUtil.write(IOUtil.java:65) ~[na:1.8.0_77]
+	at sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:471) ~[na:1.8.0_77]
+	at org.apache.tomcat.util.net.NioChannel.write(NioChannel.java:134) ~[tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.tomcat.util.net.NioBlockingSelector.write(NioBlockingSelector.java:101) ~[tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.tomcat.util.net.NioSelectorPool.write(NioSelectorPool.java:157) ~[tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.doWrite(NioEndpoint.java:1276) ~[tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.tomcat.util.net.SocketWrapperBase.doWrite(SocketWrapperBase.java:670) ~[tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.tomcat.util.net.SocketWrapperBase.flushBlocking(SocketWrapperBase.java:607) ~[tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.tomcat.util.net.SocketWrapperBase.flush(SocketWrapperBase.java:597) ~[tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.coyote.http11.Http11OutputBuffer$SocketOutputBuffer.flush(Http11OutputBuffer.java:646) ~[tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.coyote.http11.filters.ChunkedOutputFilter.flush(ChunkedOutputFilter.java:169) ~[tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.coyote.http11.Http11OutputBuffer.flush(Http11OutputBuffer.java:252) ~[tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.coyote.http11.Http11Processor.flush(Http11Processor.java:1564) ~[tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.coyote.AbstractProcessor.action(AbstractProcessor.java:352) ~[tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.coyote.Response.action(Response.java:173) ~[tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.catalina.connector.OutputBuffer.doFlush(OutputBuffer.java:317) ~[tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.catalina.connector.OutputBuffer.flush(OutputBuffer.java:284) ~[tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.catalina.connector.CoyoteOutputStream.flush(CoyoteOutputStream.java:118) ~[tomcat-embed-core-8.5.31.jar:8.5.31]
+	at sun.nio.cs.StreamEncoder.implFlush(StreamEncoder.java:297) ~[na:1.8.0_77]
+	at sun.nio.cs.StreamEncoder.flush(StreamEncoder.java:141) ~[na:1.8.0_77]
+	at java.io.OutputStreamWriter.flush(OutputStreamWriter.java:229) ~[na:1.8.0_77]
+	at org.springframework.util.StreamUtils.copy(StreamUtils.java:121) ~[spring-core-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.http.converter.StringHttpMessageConverter.writeInternal(StringHttpMessageConverter.java:103) ~[spring-web-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.http.converter.StringHttpMessageConverter.writeInternal(StringHttpMessageConverter.java:43) ~[spring-web-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.http.converter.AbstractHttpMessageConverter.write(AbstractHttpMessageConverter.java:224) ~[spring-web-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitterReturnValueHandler$HttpMessageConvertingHandler.sendInternal(ResponseBodyEmitterReturnValueHandler.java:199) ~[spring-webmvc-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitterReturnValueHandler$HttpMessageConvertingHandler.send(ResponseBodyEmitterReturnValueHandler.java:189) ~[spring-webmvc-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitter.sendInternal(ResponseBodyEmitter.java:189) ~[spring-webmvc-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitter.send(ResponseBodyEmitter.java:183) ~[spring-webmvc-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.SseEmitter.send(SseEmitter.java:133) ~[spring-webmvc-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ReactiveTypeHandler$SseEmitterSubscriber.send(ReactiveTypeHandler.java:341) ~[spring-webmvc-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ReactiveTypeHandler$AbstractEmitterSubscriber.run(ReactiveTypeHandler.java:283) ~[spring-webmvc-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_77]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_77]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_77]
+
+2020-03-23 16:50:05.241 ERROR 30335 --- [http-nio-8282-exec-9] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+
+java.io.IOException: Broken pipe
+	at sun.nio.ch.FileDispatcherImpl.write0(Native Method) ~[na:1.8.0_77]
+	at sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:47) ~[na:1.8.0_77]
+	at sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:93) ~[na:1.8.0_77]
+	at sun.nio.ch.IOUtil.write(IOUtil.java:65) ~[na:1.8.0_77]
+	at sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:471) ~[na:1.8.0_77]
+	at org.apache.tomcat.util.net.NioChannel.write(NioChannel.java:134) ~[tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.tomcat.util.net.NioBlockingSelector.write(NioBlockingSelector.java:101) ~[tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.tomcat.util.net.NioSelectorPool.write(NioSelectorPool.java:157) ~[tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.doWrite(NioEndpoint.java:1276) ~[tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.tomcat.util.net.SocketWrapperBase.doWrite(SocketWrapperBase.java:670) ~[tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.tomcat.util.net.SocketWrapperBase.flushBlocking(SocketWrapperBase.java:607) ~[tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.tomcat.util.net.SocketWrapperBase.flush(SocketWrapperBase.java:597) ~[tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.coyote.http11.Http11OutputBuffer$SocketOutputBuffer.flush(Http11OutputBuffer.java:646) ~[tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.coyote.http11.filters.ChunkedOutputFilter.flush(ChunkedOutputFilter.java:169) ~[tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.coyote.http11.Http11OutputBuffer.flush(Http11OutputBuffer.java:252) ~[tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.coyote.http11.Http11Processor.flush(Http11Processor.java:1564) ~[tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.coyote.AbstractProcessor.action(AbstractProcessor.java:352) ~[tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.coyote.Response.action(Response.java:173) ~[tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.catalina.connector.OutputBuffer.doFlush(OutputBuffer.java:317) ~[tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.catalina.connector.OutputBuffer.flush(OutputBuffer.java:284) ~[tomcat-embed-core-8.5.31.jar:8.5.31]
+	at org.apache.catalina.connector.CoyoteOutputStream.flush(CoyoteOutputStream.java:118) ~[tomcat-embed-core-8.5.31.jar:8.5.31]
+	at sun.nio.cs.StreamEncoder.implFlush(StreamEncoder.java:297) ~[na:1.8.0_77]
+	at sun.nio.cs.StreamEncoder.flush(StreamEncoder.java:141) ~[na:1.8.0_77]
+	at java.io.OutputStreamWriter.flush(OutputStreamWriter.java:229) ~[na:1.8.0_77]
+	at org.springframework.util.StreamUtils.copy(StreamUtils.java:121) ~[spring-core-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.http.converter.StringHttpMessageConverter.writeInternal(StringHttpMessageConverter.java:103) ~[spring-web-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.http.converter.StringHttpMessageConverter.writeInternal(StringHttpMessageConverter.java:43) ~[spring-web-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.http.converter.AbstractHttpMessageConverter.write(AbstractHttpMessageConverter.java:224) ~[spring-web-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitterReturnValueHandler$HttpMessageConvertingHandler.sendInternal(ResponseBodyEmitterReturnValueHandler.java:199) ~[spring-webmvc-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitterReturnValueHandler$HttpMessageConvertingHandler.send(ResponseBodyEmitterReturnValueHandler.java:189) ~[spring-webmvc-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitter.sendInternal(ResponseBodyEmitter.java:189) ~[spring-webmvc-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitter.send(ResponseBodyEmitter.java:183) ~[spring-webmvc-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.SseEmitter.send(SseEmitter.java:133) ~[spring-webmvc-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ReactiveTypeHandler$SseEmitterSubscriber.send(ReactiveTypeHandler.java:341) ~[spring-webmvc-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ReactiveTypeHandler$AbstractEmitterSubscriber.run(ReactiveTypeHandler.java:283) ~[spring-webmvc-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_77]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_77]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_77]
+
+2020-03-23 16:50:27.799  INFO 30335 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2020-03-23 16:50:27.799  INFO 30335 --- [RMI TCP Connection(2)-127.0.0.1] ConfigServletWebServerApplicationContext : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@54504ecd: startup date [Mon Mar 23 16:49:31 MYT 2020]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@6ae5aa72
+2020-03-23 16:50:27.800  INFO 30335 --- [RMI TCP Connection(2)-127.0.0.1] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application sbaservice with eureka with status DOWN
+2020-03-23 16:50:27.800  WARN 30335 --- [RMI TCP Connection(2)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1584953427800, current=DOWN, previous=UP]
+2020-03-23 16:50:27.800  INFO 30335 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SBASERVICE/192.168.0.139:sbaservice:8282: registering service...
+2020-03-23 16:50:27.803  INFO 30335 --- [RMI TCP Connection(2)-127.0.0.1] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 0
+2020-03-23 16:50:27.806  INFO 30335 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SBASERVICE/192.168.0.139:sbaservice:8282 - registration status: 204
+2020-03-23 16:50:27.806  INFO 30335 --- [RMI TCP Connection(2)-127.0.0.1] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2020-03-23 16:50:27.807  INFO 30335 --- [RMI TCP Connection(2)-127.0.0.1] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans
+2020-03-23 16:50:27.808  INFO 30335 --- [RMI TCP Connection(2)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'webMvcAsyncTaskExecutor'
+2020-03-23 16:50:27.811  INFO 30335 --- [RMI TCP Connection(2)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2020-03-23 16:50:30.812  INFO 30335 --- [RMI TCP Connection(2)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2020-03-23 16:50:30.821  INFO 30335 --- [RMI TCP Connection(2)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SBASERVICE/192.168.0.139:sbaservice:8282 - deregister  status: 200
+2020-03-23 16:50:30.838  INFO 30335 --- [RMI TCP Connection(2)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient

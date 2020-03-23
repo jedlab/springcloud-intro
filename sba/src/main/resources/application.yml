@@ -1,0 +1,14 @@
+      
+spring:
+  application:
+    name: sbaservice
+    
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+server:
+  port: 8282    
+  
+  
