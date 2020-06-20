@@ -1,0 +1,40 @@
+eureka:  
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+      
+spring:
+  application:
+    name: q-service
+  artemis:    
+    host: 127.0.0.1
+    port: 61616
+    user: artemis
+    password: artemis
+    mode: EMBEDDED
+    embedded:
+      enabled: true
+      persistent: false
+      topics:
+      - cloudt
+      queues:
+      - clouq
+  activemq:    
+    non-blocking-redelivery: true
+    broker-url: tcp://localhost:61616?jms.prefetchPolicy.queuePrefetch=1
+    packages:
+       trust-all: true
+    
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+           
+
+
+
+jms:
+ queue:
+  destination: cloud-dest         
+  reply: cloud-reply  
