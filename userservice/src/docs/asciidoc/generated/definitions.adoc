@@ -1,0 +1,9 @@
+== Definitions
+=== UserVO
+[options="header"]
+|===
+|Name|Description|Required|Schema|Default
+|password||false|string|
+|username||false|string|
+|===
+

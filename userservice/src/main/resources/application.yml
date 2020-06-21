@@ -13,3 +13,11 @@ management:
       exposure:
         include: "*"
            
+           
+           
+feign:
+ client:
+  config:
+   default:
+    connectTimeout: 60000           
+    readTimeout: 60000

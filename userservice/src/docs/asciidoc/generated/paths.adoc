@@ -1,0 +1,75 @@
+== Paths
+=== ایجاد کاربر
+----
+POST /api/v1/users
+----
+
+==== Description
+:hardbreaks:
+برای ایجاد کاربر استفاده میشود
+
+==== Parameters
+[options="header"]
+|===
+|Type|Name|Description|Required|Schema|Default
+|HeaderParameter|Authorization||true|string|
+|BodyParameter|vo|vo|true|<<UserVO>>|
+|===
+
+==== Responses
+[options="header"]
+|===
+|HTTP Code|Description|Schema
+|200|OK|string
+|201|Created|No Content
+|401|Unauthorized|No Content
+|403|Forbidden|No Content
+|404|Not Found|No Content
+|===
+
+==== Consumes
+
+* application/json
+
+==== Produces
+
+* application/json
+
+==== Tags
+
+* UserController
+
+=== getUserList
+----
+GET /api/v1/users
+----
+
+==== Parameters
+[options="header"]
+|===
+|Type|Name|Description|Required|Schema|Default
+|HeaderParameter|Authorization||true|string|
+|===
+
+==== Responses
+[options="header"]
+|===
+|HTTP Code|Description|Schema
+|200|OK|string
+|401|Unauthorized|No Content
+|403|Forbidden|No Content
+|404|Not Found|No Content
+|===
+
+==== Consumes
+
+* application/json
+
+==== Produces
+
+* application/json
+
+==== Tags
+
+* UserController
+
