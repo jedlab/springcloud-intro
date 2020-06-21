@@ -12,6 +12,7 @@ import javax.jms.ObjectMessage;
 import javax.jms.Session;
 
 import org.apache.activemq.artemis.jms.client.ActiveMQObjectMessage;
+import org.json.JSONObject;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.client.ServiceInstance;
 import org.springframework.cloud.client.discovery.DiscoveryClient;
@@ -111,12 +112,29 @@ public class ArtemisConsumer implements SessionAwareMessageListener<Message>
         ApiResponseVO resp = new ApiResponseVO(404, "Not found");
         if(receive != null)
             resp = new ApiResponseVO(receive.getStatusCodeValue(), receive.getBody());
+        checkMehdi(resp.getResponseBody());
         ObjectMessage responseMessage = session.createObjectMessage(resp);
         responseMessage.setJMSCorrelationID(message.getJMSCorrelationID());
 
         // Message sent back to the replyTo address of the income message.
         final MessageProducer producer = session.createProducer(message.getJMSReplyTo());
         producer.send(responseMessage);
+    }
+
+    private void checkMehdi(String responseBody)
+    {
+        try
+        {
+            JSONObject js = new JSONObject(responseBody);
+            String string = js.getString("username");
+            log.info("username is {}", string);
+            if("mehdi".equals(string))
+                Thread.sleep(3000);
+        }
+        catch (Exception e)
+        {
+            // TODO: handle exception
+        }
     }
 
 }

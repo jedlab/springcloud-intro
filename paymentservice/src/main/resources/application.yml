@@ -23,4 +23,23 @@ management:
         
 logging:
   file: payment.log  
-  path: /opt/                
+  path: /opt/
+  
+  
+feign:
+ client:
+  config:
+   default:
+    connectTimeout: 60000           
+    readTimeout: 60000
+    
+
+    
+hystrix:
+ command:
+  default:
+   execution:
+    isolation:
+     thread:
+      timeoutInMilliseconds: 6000                      
+  

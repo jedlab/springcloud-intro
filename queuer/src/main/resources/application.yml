@@ -38,3 +38,12 @@ jms:
  queue:
   destination: cloud-dest         
   reply: cloud-reply  
+  
+  
+  
+feign:
+ client:
+  config:
+   default:
+    connectTimeout: 60000           
+    readTimeout: 60000  

@@ -31,15 +31,15 @@ public class QueuerController
         {
             ApiResponseVO send = producer.send(body);
             log.info("response {}", send.toString());
+            return ResponseEntity.ok(send.toString());
         }
         catch (JMSException e)
         {
             // TODO Auto-generated catch block
             e.printStackTrace();
         }
+        return ResponseEntity.ok("failed");
         
-        
-        return ResponseEntity.ok("ok");
     }
     
     

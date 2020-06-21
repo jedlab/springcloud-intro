@@ -1,5 +1,4 @@
-package com.omidp.queuer;
-
+package com.jedlab.paymentservice;
 import java.io.Serializable;
 
 import org.springframework.http.HttpMethod;
